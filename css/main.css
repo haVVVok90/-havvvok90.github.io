@@ -827,17 +827,19 @@ html {
             align-items: center;
     gap: 10px;
     background-color: rgba(0, 0, 0, 0.8);
-    -webkit-transition: 0.6s all;
-    transition: 0.6s all;
   }
   .menu_active {
     left: 0;
   }
   .menu_list {
     border-right: none;
+    width: 100%;
+    text-align: center;
   }
   .menu_list a {
     font-size: 20px;
+    display: block;
+    padding: 4px 0;
   }
   .hamburger {
     display: block;
@@ -880,8 +882,32 @@ html {
   .xs-visible {
     display: block;
   }
+  .promo_title {
+    margin-top: 40px;
+  }
   .subheader_btn {
     margin-bottom: 10px;
+  }
+  .advantages_title {
+    font-size: 28px;
+  }
+  .mobile_title {
+    font-size: 28px;
+  }
+  .auto {
+    min-height: 0;
+  }
+  .auto_title {
+    font-size: 28px;
+  }
+  .auto_img {
+    margin: 108px auto 0 auto;
+  }
+  .requirements_title {
+    font-size: 28px;
+  }
+  .world_title {
+    font-size: 28px;
   }
   .footer_wrapper {
     -webkit-box-orient: vertical;
